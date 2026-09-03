@@ -1,0 +1,18 @@
+{
+  "name": "factura-portal",
+  "version": "1.0.0",
+  "description": "Portal de autofacturación para clientes de restaurante (Square POS)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16",
+    "pdfkit": "^0.15.1",
+    "square": "^43.0.1"
+  }
+}
